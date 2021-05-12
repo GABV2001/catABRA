@@ -1,7 +1,10 @@
 #INTEGRANTES
--1.Guillermo Antonio Baltodano Vado
--2.Kevin Fernando Estrada Gonzalez
--3.Joseph Tadeo Chavarria Gonzalez
--4.Arle Jose Baez Gutierrez
--5.Alan Ernesto Espinales Lovo
--6.Cesar Antonio Collado Baca
+
+<ol>
+<li>Guillermo Antonio Baltodano Vado</li>
+<li>Kevin Fernando Estrada Gonzalez</li>
+<li>Joseph Tadeo Chavarria Gonzalez</li>
+<li>Arle Jose Baez Gutierrez</li>
+<li>Alan Ernesto Espinales Lovo</li>
+<li>Cesar Antonio Collado Baca</li>
+</ol>
