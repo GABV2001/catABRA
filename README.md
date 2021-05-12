@@ -1,6 +1,4 @@
-# catABRA
-
-##INTEGRANTES
+#INTEGRANTES
 	#Guillermo Antonio Baltodano Vado
 	#Kevin Fernando Estrada Gonzalez
 	#Joseph Tadeo Chavarria Gonzalez
