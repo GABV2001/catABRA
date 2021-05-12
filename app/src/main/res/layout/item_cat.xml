@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    app:cardElevation="2.0dp"
+    app:cardBackgroundColor="@color/blue"
+    app:cardCornerRadius="10.0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="205dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Name"
+            tools:textColor="@color/white"
+            tools:textSize="24sp"
+            tools:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_temperament"
+            android:layout_width="219dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_name"
+            tools:text="Temperament"
+            tools:textColor="@color/white"
+            tools:textSize="18sp"
+            tools:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tv_origin"
+            android:layout_width="205dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_temperament"
+            tools:text="Origin"
+            tools:textColor="@color/white"
+            tools:textSize="18sp"
+            tools:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img_cat"
+            android:layout_width="98dp"
+            android:layout_height="113dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/abc_vector_test"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_origin"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
